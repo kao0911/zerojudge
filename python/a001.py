@@ -1,4 +1,4 @@
-
+#2025-08-31
 try:
     while True:
         a = input()

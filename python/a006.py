@@ -48,7 +48,7 @@ try:
             # 【關鍵修正】分母 (2*a) 必須加上括號
             x = (-b + math.sqrt(k)) / (2 * a)
             
-            # 【TypeError 修正】使用 f-string 輸出並格式化
+            #int(x):d 時，它是執行 無條件捨去 的操作
             print(f"Two same roots x={int(x):d}")
 
         # 情況 3: 無實數根 (k < 0)
